@@ -1,38 +1,34 @@
 ---
 layout: splash
 permalink: /
-hidden: true
+hidden: false
 header:
-  overlay_color: "#5e616c"
-  overlay_image: /assets/images/mm-home-page-feature.jpg
-  actions:
-    - label: "<i class='fas fa-download'></i> Install now"
-      url: "/docs/quick-start-guide/"
-excerpt: >
-  A flexible two-column Jekyll theme. Perfect for building personal sites, blogs, and portfolios.<br />
-  <small><a href="https://github.com/mmistakes/minimal-mistakes/releases/tag/4.19.2">Latest release v4.19.2</a></small>
+  image: "/assets/images/new-york-buildings1.jpg"
+
 feature_row:
-  - image_path: /assets/images/mm-customizable-feature.png
-    alt: "customizable"
-    title: "Super customizable"
-    excerpt: "Everything from the menus, sidebars, comments, and more can be configured or set with YAML Front Matter."
-    url: "/docs/configuration/"
+  -
+    alt: "ML Models"
+    title: "ML Models"
+    excerpt: "In this section, you will see some of the ML Models I have developed throughout my career. There are models developed for specific business needs of companies I worked in, others I developed for Kaggle competitions. Of the model’s developed companies I worked in, some were deployed and put in production, some didn’t."
+    url: "/tags/ml-models/"
     btn_class: "btn--primary"
-    btn_label: "Learn more"
-  - image_path: /assets/images/mm-responsive-feature.png
-    alt: "fully responsive"
-    title: "Responsive layouts"
-    excerpt: "Built with HTML5 + CSS3. All layouts are fully responsive with helpers to augment your content."
-    url: "/docs/layouts/"
+    btn_label: "View"
+
+  -
+    alt: "Analysis"
+    title: "Analysis"
+    excerpt: "In this section, you will see some of the impactful analysis I have done throughout my career, by impactful I mean analysis that generates insights that direct impact in business decisions. Even though I'm a Data Scientist, a fair part of my ‘impact’ in companies came from simple analysis that no one thought about before."
+    url: "/tags/analysis/"
     btn_class: "btn--primary"
-    btn_label: "Learn more"
-  - image_path: /assets/images/mm-free-feature.png
-    alt: "100% free"
-    title: "100% free"
-    excerpt: "Free to use however you want under the MIT License. Clone it, fork it, customize it... whatever!"
-    url: "/docs/license/"
+    btn_label: "View"
+
+  -
+    alt: "Articles"
+    title: "Articles"
+    excerpt: "In this section, you will see some of the articles I have written about various Data Science topics. Some of them emerge from questions or discussions I saw on forums and groups, others emerge by my own experience struggling to learn some topic when I didn’t find any complete and high-quality content about such topics on the web."
+    url: "/tags/articles/"
     btn_class: "btn--primary"
-    btn_label: "Learn more"      
+    btn_label: "View"      
 ---
 
 {% include feature_row %}
